@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Daily Traits privacy policy — what we do and don't collect." />
+  <meta name="robots" content="index, follow" />
+  <title>Daily Traits — Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --fg: #1c1c1e;
+      --fg-muted: #6c6c70;
+      --bg: #ffffff;
+      --accent: #3b82f6;
+      --rule: #e5e5ea;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fg: #f2f2f7;
+        --fg-muted: #98989d;
+        --bg: #1c1c1e;
+        --rule: #38383a;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text",
+            "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      padding: 32px 20px 80px;
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 32px;
+      line-height: 1.2;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin: 0 0 8px;
+    }
+    .subtitle {
+      color: var(--fg-muted);
+      font-size: 15px;
+      margin: 0 0 32px;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin: 32px 0 8px;
+    }
+    p { margin: 0 0 16px; }
+    ul {
+      padding-left: 20px;
+      margin: 0 0 16px;
+    }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--rule);
+      margin: 32px 0;
+    }
+    .tldr {
+      background: rgba(59, 130, 246, 0.08);
+      border-left: 3px solid var(--accent);
+      padding: 16px 20px;
+      border-radius: 8px;
+      margin: 0 0 32px;
+    }
+    .tldr p:last-child { margin-bottom: 0; }
+    footer {
+      margin-top: 48px;
+      padding-top: 16px;
+      border-top: 1px solid var(--rule);
+      color: var(--fg-muted);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Daily Traits Privacy Policy</h1>
+    <p class="subtitle">Last updated: 2026-05-02</p>
+
+    <div class="tldr">
+      <p><strong>TL;DR:</strong> Daily Traits collects nothing about you. Your habits, completions, and statistics live in your device's local storage. We have no servers, no accounts, and no ads. The only data ever leaving your device is anonymous crash reports — and only if your app crashes.</p>
+    </div>
+
+    <h2>What we collect</h2>
+    <p>Nothing personal. Daily Traits does not require an account, does not transmit your habits or completions to any server, and does not contain any analytics or advertising SDKs.</p>
+
+    <h2>Where your data lives</h2>
+    <p>All habit data, completion history, statistics, achievements, and preferences are stored locally in your device's app sandbox using SQLite. Nothing is uploaded.</p>
+
+    <h2>Notifications</h2>
+    <p>Daily Traits uses your device's local notification system to deliver habit reminders and daily check-in nudges. The timing and content of these notifications are generated entirely on-device and are never transmitted off your device.</p>
+
+    <h2>Backup files</h2>
+    <p>The Export feature creates a JSON backup file on your device, which you choose where to save (for example: Files, iCloud Drive, email). We do not see, store, or transmit this file. The Import feature reads from a file you select; processing happens entirely on-device.</p>
+    <p>iOS users with iCloud Backup enabled and Android users on Google Auto Backup will have Daily Traits data automatically backed up to their personal cloud storage by the operating system. This is a system-level feature; Daily Traits has no access to or visibility into these backups.</p>
+
+    <h2>Crash reports</h2>
+    <p>Daily Traits uses Sentry to receive anonymous diagnostic information when the app crashes. The data sent includes:</p>
+    <ul>
+      <li>Stack traces of the crash</li>
+      <li>Device model and operating system version</li>
+      <li>App version</li>
+      <li>Recent in-app actions (UI taps, navigation events) leading up to the crash, used to reproduce the bug</li>
+    </ul>
+    <p>The data sent does <strong>not</strong> include personal information, habit content, completion history, account identifiers, IP addresses, or precise location.</p>
+    <p>Crash reports are processed by Functional Software, Inc. (operating as Sentry, <a href="https://sentry.io/privacy/" rel="noopener">sentry.io/privacy</a>). We use Sentry strictly for diagnosing crashes and improving stability — never for marketing, analytics, or user identification.</p>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>Notifications</strong> — required for habit reminders. You can disable them anytime in your device settings: Settings → Notifications → Daily Traits.</li>
+      <li><strong>File access</strong> — only when you tap Export or Import. You select the file, the OS hands it to the app, and Daily Traits has no access to other files on your device.</li>
+    </ul>
+
+    <h2>Children</h2>
+    <p>Daily Traits does not knowingly collect data from children — because Daily Traits does not collect data from anyone.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy ever changes, we'll update the "Last updated" date above. For material changes (e.g. if Daily Traits ever adds a feature that does collect data), we will notify users in-app before the change takes effect.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or concerns? Email <a href="mailto:avgur.support@gmail.com">avgur.support@gmail.com</a>.</p>
+
+    <footer>
+      <p>Daily Traits is an independent app. This policy applies only to Daily Traits.</p>
+    </footer>
+  </main>
+</body>
+</html>
